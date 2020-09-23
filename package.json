@@ -1,0 +1,20 @@
+{
+  "name": "rtcserver",
+  "version": "1.0.0",
+  "description": "webrtc server for luncher",
+  "main": "index.js",
+  "author": "wl",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node_modules/nodemon/bin/nodemon.js index.js"
+  },
+  "dependencies": {
+    "koa": "^2.13.0",
+    "uuid": "^8.3.0",
+    "ws": "^7.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
